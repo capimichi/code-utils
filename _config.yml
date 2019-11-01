@@ -4,3 +4,28 @@ theme: jekyll-theme-slate
 
 author:
   name: Michele Capicchioni
+
+social-network-links:
+  rss: true
+  email: "capimichi@gmail.com"
+  facebook: bsugo1
+  github: capimichi
+#  twitter: daattali
+#  reddit: yourname
+  linkedin: michele-capicchioni-13848412b
+#  xing: yourname
+#  stackoverflow: "3943160/daattali"
+#  snapchat: deanat78
+  instagram: michelecapicchioni
+#  youtube: user/deanat78
+#  spotify: yourname
+#  telephone: +14159998888
+#  steam: deanat78
+#  twitch: yourname
+#  yelp: yourname
+
+# Select which share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: true
