@@ -1,10 +1,12 @@
 #!/bin/bash
 
+BASEDIR="$( cd "$(dirname "$0")" ; pwd -P )"
+
 cat directories.txt | while read f
 do
-    echo "$f"
-    mkdir -p "../build/${f}"
-    cd "src"
-    tar -zcvf "../build/${f}/master.tar.gz" "./${f}"
-    zip -r "../build/${f}/master.zip" "./${f}"
+    cd "$BASEDIR"
+    mkdir -p "./build/${f}"
+    cd "./src/${f}"
+    tar -zcvf "${BASEDIR}/build/${f}/master.tar.gz" "."
+    zip -r "${BASEDIR}/build/${f}/master.zip" "."
 done
