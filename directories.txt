@@ -1,4 +1,5 @@
 symfony4/chromium
 symfony4/eav-boilerplate
 symfony4/translator
+magento/module-composer
 bash/youtube/copy-playlist
