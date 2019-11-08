@@ -1,0 +1,17 @@
+{
+  "name": "capimichi/module-composer",
+  "authors": [
+    {
+      "name": "michele",
+      "email": "capimichi@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ModuleComposer\\": "src/"
+    }
+  },
+  "require": {
+    "symfony/console": "^4.3"
+  }
+}
